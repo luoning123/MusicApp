@@ -1,0 +1,111 @@
+
+/*推荐*/
+.tuijian{
+
+	height: 34px;
+	width: 100%;
+	background: #fff;
+	line-height: 34px;
+}
+.tuijian a{
+	color: #666;
+	font-size: 14px;
+	padding-left: 12px;
+}
+.tuijian b{
+	margin-right: 6px;
+	font-weight: 100;
+}
+/*banner*/
+.banner{
+	width: 100%;
+	height: 140px;
+}
+.banner img{
+	width: 100%;
+	height: 100%;
+}
+/*播放列表*/
+.bofang{
+	width: 100%;
+}
+.bofang-top{
+	display: block;
+	width: 100%;
+	height: 32px;
+	background: #fff;
+}
+.bofang-top-1{
+	float: left;
+	display:block;
+	margin-left: 12px;
+	margin-top: 5px;
+	width: 16px;
+	height: 16px; 
+	line-height: 26px;
+	background: url("../img/jht.png")  no-repeat -35px -37px;
+}
+.bofang-top-2{
+	font-size: 14px;
+	margin-left:12px;
+	float: left;
+	display: block;
+	line-height: 26px;
+	padding-right: 20px;
+}
+.bofang-top-3{
+	font-size: 14px;
+	float: right;
+	margin-right: 12px;
+	line-height: 26px;
+	display: block;
+}
+.bofang-box{
+	width: 100%;
+/*	height:200px;*/
+	overflow: auto;
+}
+li{
+	list-style: none;
+}
+.bofang ul li{
+	width: 100%;
+	color: #666;
+	height: 41px;
+}
+.bofang ul li>span:nth-child(1){
+	margin-top:3px;
+	margin-left: 12px;
+	float: left;
+	width:16px;
+	height:16px;
+	background: url("../img/jht.png")  no-repeat -35px 0px;; 
+}
+.bofang ul li>span:nth-last-child(1){
+	margin-top: 20px;
+	margin-right: 12px;
+	float: right;
+	width:16px;
+	height:16px;
+	background: url("../img/jht.png")  no-repeat -81px -42px;; 
+}
+.bofang ul li>span:nth-last-child(2){
+	margin-top: 3px;
+	margin-left: 4px;
+	float: left;
+	width:20px;
+	height:16px;
+	background: url("../img/jht.png")  no-repeat -57px 0px;; 
+}
+.bofang ul li>p{
+	font-weight: bold;
+	margin-left: 12px;
+	font-size: 14px;
+	float: left;
+	display: inline;
+}
+.bofang ul li>p>span{
+	font-weight: 100;
+	color: #999;
+	font-size: 10px;
+}

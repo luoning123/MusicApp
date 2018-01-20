@@ -1,0 +1,130 @@
+/*内容区*/
+/*导航*/
+.nav span:nth-last-child(1){
+	color: #ff9a44;
+	border-bottom: 2px solid #ff9a44;
+}
+.rm{
+	font-size: 12px;
+	width: 100%;
+	height: 34px;
+	background: #fff;
+	align-items: center;
+	justify-content: space-around;	
+}
+/*.rm span{
+	display: block;
+}*/
+.rm span:nth-child(1){
+	display: block;
+	float: left;
+	width: 14px;
+	height: 15px;
+	background: url("../img/jht.png")no-repeat -97px -42px;
+	margin-left:12px; 
+	margin-top: 10px;
+}
+.rm span:nth-child(2){
+	line-height: 34px;
+	float: left;
+	margin-left:12px; 
+}
+.rm span:nth-child(4){
+	display: block;
+	float: right;
+	margin-right: 12px;
+	margin-top: 12px;
+	width: 10px;
+	height: 10px;
+	border:1px solid #666;
+	border-radius: 50%;
+	position: relative;
+}
+.rm span:nth-child(4):hover{
+	transform: rotate(90deg);
+}
+.rm span:nth-child(4)::after{
+	content: " ";
+	display: block;
+	width:3px;
+	height: 3px;
+	border-right:1px solid #666;
+	border-bottom:1px solid #666;
+	position: absolute;
+	left:6px;
+	top: -1px;
+}
+.rm span:nth-child(4)::before{
+	content: " ";
+	display: block;
+	width:3px;
+	height: 3px;
+	border-top:1px solid #666;
+	border-left:1px solid #666;
+	position: absolute;
+	left:-1px;
+	bottom: -1px;
+}
+.rm span:nth-child(3){
+	line-height: 34px;
+	float: right;
+	margin-right: 12px;
+}
+.rm1 li{
+	display: flex;
+	align-items: center;
+	font-size: 11px;
+	height:68px;
+	width: 100%; 
+}
+.rm1-1{
+	font-weight: bold;
+	padding: 0px 12px;
+	display:block;
+	line-height: 68px;
+}
+.rm1-2{
+/*	background: url("../img/rm1-1.png")no-repeat;*/
+	width: 74px;
+	height: 62px;
+}
+.rm1-box{
+	flex: 1;
+	border-bottom: 1px solid #ccc;
+	margin-left: 12px;
+	margin-right: 12px;
+	width: 202px;
+}
+.rm1-box span:nth-child(1){
+	display: inline-block;
+	width: 172px;
+	margin-top: 2px;
+	font-weight: bold;
+}
+.rm1-box span:nth-last-child(1){
+	display: inline-block;
+	height: 20px;
+	margin-top:10px;
+}
+.rm2{
+	width: 100%;
+	margin-left: 0.7%;
+}
+.rm2 li{
+	float:left;
+	font-size: 12px;
+	width: 32%;
+	margin:0.4%;
+}
+.rm2 li img{
+	width: 100%;
+	height: 130px;
+}
+.rm2 li span{
+	display: block;
+	width: 100%;
+	height: 50px;
+}
+.content{
+	overflow: auto;
+}
